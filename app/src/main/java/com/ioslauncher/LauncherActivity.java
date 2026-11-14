@@ -118,7 +118,7 @@ public class LauncherActivity extends Activity {
 
         root = new FrameLayout(this);
         root.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_STABLE
-                | View.SYSTEM_UI_FLAG_LAYOUT_FULL_SCREEN
+                | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
                 | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION);
         root.setOnApplyWindowInsetsListener((v, ins) -> {
             int t = ins.getSystemWindowInsetTop();
